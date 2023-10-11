@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-N9ST1JQB0K"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-N9ST1JQB0K');
+  </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Merriweather">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Merriweather">
+  <title>Young Ahn</title>
+  <style>
+    body {
+      font-family: 'Merriweather', Arial;
+      margin: 0;
+      padding: 0;
+  background-color: white;
+    }
+    .container {
+      max-width: 960px;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: #FFFFFF;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    h1 {
+      margin-bottom: 0;
+    }
+    a {
+      text-decoration: none;
+    }
+    a:link {
+    color: red;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    li {
+      margin-bottom: 5px;
+    }
+    .profile-image {
+      max-width: 250px;
+      max-height: 250px;
+      object-fit: cover;
+    }
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 24px;
+      }
+      header {
+        flex-direction: column;
+      }
+      .profile-image {
+        margin-bottom: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div>
+        <h1>Young Ahn</h1>
+			<p>Graduate Student<br>
+				University of Pennsylvania</p>
+        <p><a href="mailto:youngahn@sas.upenn.edu">youngahn@sas.upenn.edu</a></p>
+      </div>
+      <img class="profile-image" src="ahn-profile-photo.jpg" alt="Profile photo of Young Ahn">
+    </header>
+    <section>
+      <h2>Short Vita</h2>
+        <p>I am a graduate student at the <a href="https://economics.sas.upenn.edu/">University of Pennsylvania</a>. I used to be a predoctoral fellow in the Centre for Innovative Data in Economics (CIDE) at the <a href="https://www.ubc.ca/">University of British Columbia</a> in Vancouver and had worked in <a href="https://www.bankofcanada.ca/">Bank of Canada</a> before joining CIDE.
+        <p>I am interested in labour economics, macroeconomics, and microeconometrics.</p>
+        <p>My complete C.V. can be found <a href="https://chiyahn.github.io/ahn-cv.pdf">here</a>.</p>
+      <h2>Work in Progress</h2>
+      <ul>
+        <p>Difference-in-Differences with Latent Groups (with Hiroyuki Kasahara)</p>
+        <p>Discretizing Heterogeneity in Treatment Effects with Many Regressors (with Hiroyuki Kasahara)</p>
+        <p>From Bytes to Balance: Technology, Skill Accumulation, and Inequality in Competitive Environments</p>
+        <p>Learning How Policymakers Rank</p>
+      </ul>
+      <h2>Software</h2>
+      <ul>
+        <li><a href="https://github.com/bayesiahn/groupdid">groupdid</a> (with Hiroyuki Kasahara) 
+        <br/> DiD treatment effect estimation when parallel trends assumptions are violated.</li>
+        <li><a href="https://github.com/quantecon/SimpleDifferentialOperators.jl">SimpleDifferentialOperators.jl</a> (QuantEcon)<br/> 
+        Julia package for solving differential equations by numerical discretization.</li>
+        <li><a href="https://github.com/chiyahn/rMSWITCH">rMSWITCH</a> (with Hiroyuki Kasahara and Katsumi Shimotsu)
+        <br/> Estimation &amp; statistical test for the number of regimes of Markov regime-switching models.</li>
+        <li><a href="https://github.com/hkasahar/normalregMix">normalregMix</a> (with Hiroyuki Kasahara and Katsumi Shimotsu)
+        <br/> Estimation &amp; statistical test for the number of components of normal mixture (regression) models.</li>
+      </ul>
+      <h2>Other Writings</h2>
+      <ul>
+        <li><a href="https://github.com/QuantEcon/SimpleDifferentialOperators.jl/releases/download/v0.6.1/discretized-differential-operator-derivation.pdf">Derivations and Applications for SimpleDifferentialOperators.jl</a> (with Jesse Perla)</li>
+      </ul>
+    </section>
+  </div>
+</body>
+</html>
